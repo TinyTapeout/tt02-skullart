@@ -165,7 +165,7 @@ For the most recent automatic build, click the tt_datasheet badge above, then do
 | 140 | Michael Bartholic | 4x4 RAM | [Wokwi](https://wokwi.com/projects/341557831870186068) | https://github.com/theFestest/tt02-4x4-ram |
 | 141 | Jean THOMAS | Digital padlock | [Wokwi](https://wokwi.com/projects/341438392303616596) | https://github.com/jeanthom/tinytapout-lock |
 | 142 | James R | FFT Butterfly in Wokwi | [Wokwi](https://wokwi.com/projects/349952820323025491) | https://github.com/jdrosent/tt02-submission-template |
-| 143 | Majdi Abdul Samad | Femto 4-bit CPU | HDL | https://github.com/majdiabdulsamad/tt02-Femto |
+| 143 | Majdi Abdul Samad, ECE Dept., American University of Beirut (mia42@mail.aub.edu) | Femto 4-bit CPU | HDL | https://github.com/majdiabdulsamad/tt02-Femto |
 | 144 | Tholin | Logisim demo - LED blinker | HDL | https://github.com/AvalonSemiconductors/tt02-logisim-example |
 | 145 | bitluni | Secret File | HDL | https://github.com/bitluni/tt02-SecretFile |
 | 146 | Samuel Sun | Hex to Seven Semgent Converter | [Wokwi](https://wokwi.com/projects/349519263900369490) | https://github.com/cmu-stuco-98154/f22-tt02-qilins |
@@ -187,4 +187,4 @@ For the most recent automatic build, click the tt_datasheet badge above, then do
 | 162 | Tiny Tapeout 02 (J. Rosenthal) | Customizable UART String | [Wokwi](https://wokwi.com/projects/347144898258928211) | https://github.com/jdrosent/tt02-UARTstring |
 | 163 | Tiny Tapeout 02 (J. Rosenthal) | Customizable Padlock | [Wokwi](https://wokwi.com/projects/347417602591556180) | https://github.com/jdrosent/tt02-padlock |
 | 164 | Hassan Baydoun <hhb16@mail.aub.edu>, Razan Thebian <rat17@mail.aub.edu>: Electrical and Computer Engineering Department, American University of Beirut  | PWM Generator | HDL | https://github.com/H-Bydn/TinyTapeout2-PWMgenerator |
-| 165 | Steven Bos | MRCS Verilog test | HDL | https://github.com/aiunderstand/tt02-mrcs-verilog-test |
+| 165 | Uri Shaked | SkullART | HDL | https://github.com/wokwi/tinytapeout-skullart |

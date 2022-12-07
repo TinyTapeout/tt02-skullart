@@ -248,12 +248,6 @@
 + io_out[7] vccd1 vssd1
 .ends
 
-* Black-box entry subcircuit for c_tt2_mrcs_test abstract view
-.subckt c_tt2_mrcs_test io_in[0] io_in[1] io_in[2] io_in[3] io_in[4] io_in[5] io_in[6]
-+ io_in[7] io_out[0] io_out[1] io_out[2] io_out[3] io_out[4] io_out[5] io_out[6] io_out[7]
-+ vccd1 vssd1
-.ends
-
 * Black-box entry subcircuit for user_module_349519263900369490 abstract view
 .subckt user_module_349519263900369490 io_in[0] io_in[1] io_in[2] io_in[3] io_in[4]
 + io_in[5] io_in[6] io_in[7] io_out[0] io_out[1] io_out[2] io_out[3] io_out[4] io_out[5]
@@ -594,6 +588,10 @@
 .subckt option23ser io_in[0] io_in[1] io_in[2] io_in[3] io_in[4] io_in[5] io_in[6]
 + io_in[7] io_out[0] io_out[1] io_out[2] io_out[3] io_out[4] io_out[5] io_out[6] io_out[7]
 + vccd1 vssd1
+.ends
+
+* Black-box entry subcircuit for skullart abstract view
+.subckt skullart vssd1 vccd1
 .ends
 
 * Black-box entry subcircuit for user_module_346916357828248146 abstract view
@@ -1577,12 +1575,12 @@ Xscanchain_143 scanchain_143/clk_in scanchain_144/clk_in scanchain_143/data_in s
 + femto_top_143/io_out[5] femto_top_143/io_out[6] femto_top_143/io_out[7] scanchain_143/scan_select_in
 + scanchain_144/scan_select_in vccd1 vssd1 scanchain
 Xscanchain_165 scanchain_165/clk_in scanchain_166/clk_in scanchain_165/data_in scanchain_166/data_in
-+ scanchain_165/latch_enable_in scanchain_166/latch_enable_in c_tt2_mrcs_test_165/io_in[0]
-+ c_tt2_mrcs_test_165/io_in[1] c_tt2_mrcs_test_165/io_in[2] c_tt2_mrcs_test_165/io_in[3]
-+ c_tt2_mrcs_test_165/io_in[4] c_tt2_mrcs_test_165/io_in[5] c_tt2_mrcs_test_165/io_in[6]
-+ c_tt2_mrcs_test_165/io_in[7] c_tt2_mrcs_test_165/io_out[0] c_tt2_mrcs_test_165/io_out[1]
-+ c_tt2_mrcs_test_165/io_out[2] c_tt2_mrcs_test_165/io_out[3] c_tt2_mrcs_test_165/io_out[4]
-+ c_tt2_mrcs_test_165/io_out[5] c_tt2_mrcs_test_165/io_out[6] c_tt2_mrcs_test_165/io_out[7]
++ scanchain_165/latch_enable_in scanchain_166/latch_enable_in scanchain_165/module_data_in[0]
++ scanchain_165/module_data_in[1] scanchain_165/module_data_in[2] scanchain_165/module_data_in[3]
++ scanchain_165/module_data_in[4] scanchain_165/module_data_in[5] scanchain_165/module_data_in[6]
++ scanchain_165/module_data_in[7] scanchain_165/module_data_out[0] scanchain_165/module_data_out[1]
++ scanchain_165/module_data_out[2] scanchain_165/module_data_out[3] scanchain_165/module_data_out[4]
++ scanchain_165/module_data_out[5] scanchain_165/module_data_out[6] scanchain_165/module_data_out[7]
 + scanchain_165/scan_select_in scanchain_166/scan_select_in vccd1 vssd1 scanchain
 Xscanchain_154 scanchain_154/clk_in scanchain_155/clk_in scanchain_154/data_in scanchain_155/data_in
 + scanchain_154/latch_enable_in scanchain_155/latch_enable_in scanchain_154/module_data_in[0]
@@ -1842,12 +1840,6 @@ Xthunderbird_taillight_ctrl_089 scanchain_089/module_data_in[0] scanchain_089/mo
 + scanchain_089/module_data_out[0] scanchain_089/module_data_out[1] scanchain_089/module_data_out[2]
 + scanchain_089/module_data_out[3] scanchain_089/module_data_out[4] scanchain_089/module_data_out[5]
 + scanchain_089/module_data_out[6] scanchain_089/module_data_out[7] vccd1 vssd1 thunderbird_taillight_ctrl
-Xc_tt2_mrcs_test_165 c_tt2_mrcs_test_165/io_in[0] c_tt2_mrcs_test_165/io_in[1] c_tt2_mrcs_test_165/io_in[2]
-+ c_tt2_mrcs_test_165/io_in[3] c_tt2_mrcs_test_165/io_in[4] c_tt2_mrcs_test_165/io_in[5]
-+ c_tt2_mrcs_test_165/io_in[6] c_tt2_mrcs_test_165/io_in[7] c_tt2_mrcs_test_165/io_out[0]
-+ c_tt2_mrcs_test_165/io_out[1] c_tt2_mrcs_test_165/io_out[2] c_tt2_mrcs_test_165/io_out[3]
-+ c_tt2_mrcs_test_165/io_out[4] c_tt2_mrcs_test_165/io_out[5] c_tt2_mrcs_test_165/io_out[6]
-+ c_tt2_mrcs_test_165/io_out[7] vccd1 vssd1 c_tt2_mrcs_test
 Xuser_module_349519263900369490_146 scanchain_146/module_data_in[0] scanchain_146/module_data_in[1]
 + scanchain_146/module_data_in[2] scanchain_146/module_data_in[3] scanchain_146/module_data_in[4]
 + scanchain_146/module_data_in[5] scanchain_146/module_data_in[6] scanchain_146/module_data_in[7]
@@ -2644,6 +2636,7 @@ Xoption23ser_137 option23ser_137/io_in[0] option23ser_137/io_in[1] option23ser_1
 + option23ser_137/io_in[7] option23ser_137/io_out[0] option23ser_137/io_out[1] option23ser_137/io_out[2]
 + option23ser_137/io_out[3] option23ser_137/io_out[4] option23ser_137/io_out[5] option23ser_137/io_out[6]
 + option23ser_137/io_out[7] vccd1 vssd1 option23ser
+Xskullart_165 vssd1 vccd1 skullart
 Xuser_module_346916357828248146_018 scanchain_018/module_data_in[0] scanchain_018/module_data_in[1]
 + scanchain_018/module_data_in[2] scanchain_018/module_data_in[3] scanchain_018/module_data_in[4]
 + scanchain_018/module_data_in[5] scanchain_018/module_data_in[6] scanchain_018/module_data_in[7]

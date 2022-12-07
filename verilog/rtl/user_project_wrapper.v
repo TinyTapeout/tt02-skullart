@@ -3744,7 +3744,7 @@ module user_project_wrapper #(
         .io_out (sw_164_module_data_out)
     );
 
-    // [165] https://github.com/aiunderstand/tt02-mrcs-verilog-test
+    // [165] https://github.com/wokwi/tinytapeout-skullart
     wire sw_165_clk_out, sw_165_data_out, sw_165_scan_out, sw_165_latch_out;
     wire [7:0] sw_165_module_data_in;
     wire [7:0] sw_165_module_data_out;
@@ -3761,9 +3761,7 @@ module user_project_wrapper #(
         .module_data_out (sw_165_module_data_out)
     );
 
-    c_tt2_mrcs_test c_tt2_mrcs_test_165 (
-        .io_in  (sw_165_module_data_in),
-        .io_out (sw_165_module_data_out)
+    skullart skullart_165 (
     );
 
     // [166] https://github.com/TinyTapeout/tt02-test-invert

@@ -331,7 +331,7 @@ set ::env(FP_PDN_MACRO_HOOKS) "\
 	scanchain_164 vccd1 vssd1 vccd1 vssd1, \
 	razhas_top_level_164 vccd1 vssd1 vccd1 vssd1, \
 	scanchain_165 vccd1 vssd1 vccd1 vssd1, \
-	c_tt2_mrcs_test_165 vccd1 vssd1 vccd1 vssd1, \
+	skullart_165 vccd1 vssd1 vccd1 vssd1, \
 	scanchain_166 vccd1 vssd1 vccd1 vssd1, \
 	user_module_341535056611770964_166 vccd1 vssd1 vccd1 vssd1, \
 	scanchain_167 vccd1 vssd1 vccd1 vssd1, \

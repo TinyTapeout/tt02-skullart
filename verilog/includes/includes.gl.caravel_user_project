@@ -166,4 +166,4 @@
 -v $(USER_PROJECT_VERILOG)/gl/user_module_347144898258928211.v
 -v $(USER_PROJECT_VERILOG)/gl/user_module_347417602591556180.v
 -v $(USER_PROJECT_VERILOG)/gl/razhas_top_level.v
--v $(USER_PROJECT_VERILOG)/gl/c_tt2_mrcs_test.v
+-v $(USER_PROJECT_VERILOG)/gl/skullart.v

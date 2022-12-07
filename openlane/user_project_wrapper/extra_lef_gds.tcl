@@ -166,7 +166,7 @@ $script_dir/../../lef/user_module_347140425276981843.lef \
 $script_dir/../../lef/user_module_347144898258928211.lef \
 $script_dir/../../lef/user_module_347417602591556180.lef \
 $script_dir/../../lef/razhas_top_level.lef \
-$script_dir/../../lef/c_tt2_mrcs_test.lef"
+$script_dir/../../lef/skullart.lef"
 set ::env(EXTRA_GDS_FILES) "\
 $script_dir/../../gds/scan_controller.gds \
 $script_dir/../../gds/scanchain.gds \
@@ -335,4 +335,4 @@ $script_dir/../../gds/user_module_347140425276981843.gds \
 $script_dir/../../gds/user_module_347144898258928211.gds \
 $script_dir/../../gds/user_module_347417602591556180.gds \
 $script_dir/../../gds/razhas_top_level.gds \
-$script_dir/../../gds/c_tt2_mrcs_test.gds"
+$script_dir/../../gds/skullart.gds"
