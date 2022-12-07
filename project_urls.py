@@ -179,4 +179,6 @@ project_urls = [
     # last minute students
     'https://github.com/H-Bydn/TinyTapeout2-PWMgenerator',
     'https://github.com/aiunderstand/tt02-mrcs-verilog-test',
+    # skullart
+    'https://github.com/wokwi/tinytapeout-skullart',
     ]
