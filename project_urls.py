@@ -178,7 +178,6 @@ project_urls = [
     'https://github.com/jdrosent/tt02-padlock',
     # last minute students
     'https://github.com/H-Bydn/TinyTapeout2-PWMgenerator',
-    'https://github.com/aiunderstand/tt02-mrcs-verilog-test',
     # skullart
     'https://github.com/wokwi/tinytapeout-skullart',
     ]
